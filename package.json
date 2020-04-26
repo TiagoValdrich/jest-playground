@@ -1,0 +1,27 @@
+{
+  "name": "jest-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoValdrich/jest-playground.git"
+  },
+  "author": "Tiago Valdrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiagoValdrich/jest-playground/issues"
+  },
+  "homepage": "https://github.com/TiagoValdrich/jest-playground#readme",
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "superagent": "^5.2.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
