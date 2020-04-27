@@ -1,0 +1,11 @@
+{
+    "versose": true,
+    "watch": [
+        "test",
+        "src"
+    ],
+    "ext": "ts",
+    "execMap": {
+        "ts": "ts-node src/server.ts"
+    }
+}
