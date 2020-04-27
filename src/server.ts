@@ -5,7 +5,6 @@ const db: Database = new Database();
 
 // Runs connection to sync tables
 db.getConnection().then(connection => {
-    app['dbConnection'] = connection;
     app.listen('3000', () => {
         console.log('Application is running!');
     });
